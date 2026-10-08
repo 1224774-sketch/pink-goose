@@ -1,0 +1,606 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+img {
+    object-fit: cover;
+}
+
+body {
+    color: white;
+    background: #10151A;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+}
+
+.second-body {
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.sectioned-text {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.width{
+    width: 100%;
+}
+
+p {
+    text-align: left;
+    font-size: 15px;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    max-width: 350px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-size: 12px;
+}
+
+h4 {
+    color: rgba(154, 175, 195, 1);
+    font-size: 20px;
+    margin-top: 10px;
+    opacity: 60%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.primary-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+
+.container-header {
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.headerbuttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.headerbuttons {
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.headerbuttons:hover {
+    color: rgba(255, 180, 211, 1);
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.headertextwhite {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.headertextpink {
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(255, 180, 211, 1);
+}
+
+.login-button {
+    color: white;
+    background-color: rgba(36, 50, 65, 1);
+    margin: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+.start-a-goose {
+    margin-top: 20px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.getstarted-button {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    color: black;
+    background-color: rgba(206, 170, 255, 1);
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(251, 163, 199);
+    transition: box-shadow 0.3s ease;
+}
+
+.small-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mini-container {
+    max-width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.dao-elements {
+    padding: 10px;
+    background-color: rgba(24, 38, 50, 1);
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.secondary-backround {
+    background-color: rgba(18, 30, 40, 1);
+    border: solid 2px rgba(42, 55, 68, 1);
+}
+
+.big-description-text {
+    padding: 5px;
+    text-align: center;
+    font-size: 30px;
+    color: rgba(90, 108, 126, 1);
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.opaque {
+    opacity: 70%;
+}
+
+.white-text {
+    color: white;
+}
+
+.text-black {
+    color: black;
+}
+
+.pink-text {
+    color: rgb(255, 0, 212);
+}
+
+.yellow-text {
+    color: yellow;
+}
+
+.purple-text {
+    color: rgb(193, 24, 193);
+}
+
+.lightblue-text {
+    color: lightskyblue;
+}
+
+.darkgreen-text {
+    color: darkcyan;
+}
+
+.salmon-text {
+    color: salmon;
+}
+
+.lightgray-text {
+    color: rgba(131, 149, 167, 1);
+}
+
+.goats-image {
+    width: 100%;
+    height: 350px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.full-journey-container {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hovered-text {
+    font-size: 25px;
+    color: rgba(55, 66, 77, 1);
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.hovered-text:hover {
+    color: pink;
+    font-size: 150%;
+    text-shadow: 0 0 10px palevioletred;
+}
+
+.column-container {
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.works-with-container {
+    margin-bottom: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon-container {
+    margin: 10px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.icon-mini-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+
+.icon-text-container {
+    color: white;
+}
+
+.help-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.perk-text {
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.profile-container {
+    max-width: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.perks-container {
+    margin-top: 20px;
+    max-width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.email-form-container {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.email-form-box {
+    width: 100%;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.email-text {
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.form-container{
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form {
+    width: 300px;
+    color: white;
+    padding: 10px;
+    padding-right: 100px;
+    border-radius: 8px;
+}
+
+.subscribe-button {
+    color: black;
+    background-color: rgba(206, 170, 255, 1);
+    padding: 10px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.button-padding{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.see-all-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.press-container-mini {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.press-logos {
+    height: 42px;
+    width: 120px;
+}
+
+.podcast-logos {
+    height: 50px;
+    width: 50px;
+    border-radius: 6px;
+}
+
+.read-block {
+    width: 250px;
+    color: black;
+    padding: 15px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.read-text {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.backroundcolor-blue {
+    background-color: rgba(119, 230, 255, 1);
+}
+
+.backroundcolor-pink {
+    background-color: rgba(226, 193, 249, 1);
+}
+
+.backroundcolor-yellow {
+    background-color: rgba(219, 226, 104, 1);
+}
+
+.chat-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.chat-box {
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.yellow-shadow {
+    box-shadow: 0 0 10px yellow;
+}
+
+.pink-shadow {
+    box-shadow: 0 0 10px rgb(234, 0, 255);
+}
+
+.chat-info-box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.chat-backround-yellow {
+    border-radius: 8px;
+    padding: 10px;
+    background-color: rgba(77, 55, 5, 0.232);
+}
+
+.chat-backround-pink {
+    border-radius: 8px;
+    padding: 10px;
+    background-color: rgba(64, 53, 75, 0.221);
+}
+
+.chat-pictures {
+    height: 28px;
+    width: 28px;
+}
+
+.chat-text {
+    font-size: 20px;
+    color: black;
+    margin-top: 0;
+}
+
+.chat-small-text {
+    margin-top: 0px;
+    color: black;
+    opacity: 40%;
+    font-size: 16px;
+}
+
+
+.footer {
+    width: 100%;
+    height: 50px;
+    padding: 40px;
+    background-color: rgba(18, 30, 40, 1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-text {
+    color: white;
+    transition: 0.5s;
+}
+
+.footer-text:hover {
+    color: #FFC803;
+}
+
+.footer-links-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.footer-buttons {
+    margin-left: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.medialinks {
+    padding: 10px;
+    padding-right: 8px;
+    padding-left: 8px;
+    border-radius: 100%;
+}
+
+.fa-twitter {
+    color: rgba(119, 230, 255, 1);
+    background-color: rgba(119, 230, 255, 0.15);
+}
+
+.fa-instagram {
+    color: rgba(119, 149, 255, 1);
+    background-color: rgba(119, 149, 255, 0.15);
+}
+
+.fa-youtube {
+    color: rgba(247, 135, 135, 1);
+    background-color: rgba(247, 135, 135, 0.15);
+}
+
+.fa-discord {
+    color: rgba(146, 119, 255, 1);
+    background-color: rgba(146, 119, 255, 0.15);
+}
+
+.email-button-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
