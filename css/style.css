@@ -3,6 +3,7 @@
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
+    list-style: none;
 }
 
 img {
@@ -24,13 +25,7 @@ body {
     margin-left: auto;
 }
 
-.sectioned-text {
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.width{
+.width {
     width: 100%;
 }
 
@@ -56,20 +51,11 @@ h2 {
     align-items: center;
 }
 
-h3 {
-    font-size: 12px;
-}
-
-h4 {
-    color: rgba(154, 175, 195, 1);
-    font-size: 20px;
-    margin-top: 10px;
-    opacity: 60%;
-}
-
 .center {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .center-text {
@@ -102,13 +88,13 @@ h4 {
     gap: 15px;
 }
 
-.headerbuttons {
+.headerbutton {
     color: white;
     cursor: pointer;
     transition: 0.3s ease;
 }
 
-.headerbuttons:hover {
+.headerbutton:hover {
     color: rgba(255, 180, 211, 1);
 }
 
@@ -116,14 +102,14 @@ h4 {
     cursor: pointer;
 }
 
-.headertextwhite {
+.header-text-white {
     font-size: 30px;
     font-weight: bold;
     color: white;
     text-decoration: none;
 }
 
-.headertextpink {
+.header-text-pink {
     font-size: 30px;
     text-decoration: none;
     font-weight: bold;
@@ -134,8 +120,7 @@ h4 {
     color: white;
     background-color: rgba(36, 50, 65, 1);
     margin: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 10px;
@@ -160,7 +145,6 @@ h4 {
     background-color: rgba(206, 170, 255, 1);
     cursor: pointer;
     box-shadow: 0 0 10px rgb(251, 163, 199);
-    transition: box-shadow 0.3s ease;
 }
 
 .small-container {
@@ -319,11 +303,6 @@ h4 {
     border-radius: 15px;
 }
 
-
-.icon-text-container {
-    color: white;
-}
-
 .help-container {
     margin-top: 100px;
     display: flex;
@@ -331,12 +310,6 @@ h4 {
     align-items: center;
     flex-direction: column;
     gap: 10px;
-}
-
-.perk-text {
-    font-size: 18px;
-    font-weight: lighter;
-    text-align: center;
 }
 
 .profile-container {
@@ -348,12 +321,6 @@ h4 {
     gap: 10px;
 }
 
-.profile-image {
-    width: 100px;
-    height: 100px;
-    border-radius: 20px;
-}
-
 .perks-container {
     margin-top: 20px;
     max-width: 350px;
@@ -363,6 +330,19 @@ h4 {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
+}
+
+.perk-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.perk-text {
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
 }
 
 .email-form-container {
@@ -382,7 +362,14 @@ h4 {
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
+}
+
+.email-description{
+    color: rgba(154, 175, 195, 1);
+    font-size: 20px;
+    margin-top: 10px;
+    opacity: 60%;
 }
 
 .email-text {
@@ -390,7 +377,7 @@ h4 {
     margin-top: 5px;
 }
 
-.form-container{
+.form-container {
     margin: 20px;
     width: 100%;
     display: flex;
@@ -415,7 +402,7 @@ h4 {
     border-style: none;
 }
 
-.button-padding{
+.button-padding {
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -436,12 +423,12 @@ h4 {
     gap: 10px;
 }
 
-.press-logos {
+.press-logo {
     height: 42px;
-    width: 120px;
+    width: 145px;
 }
 
-.podcast-logos {
+.podcast-logo {
     height: 50px;
     width: 50px;
     border-radius: 6px;
@@ -541,7 +528,6 @@ h4 {
 
 .footer {
     width: 100%;
-    height: 50px;
     padding: 40px;
     background-color: rgba(18, 30, 40, 1);
     display: flex;
@@ -571,7 +557,7 @@ h4 {
     gap: 10px;
 }
 
-.medialinks {
+.medialink {
     padding: 10px;
     padding-right: 8px;
     padding-left: 8px;
